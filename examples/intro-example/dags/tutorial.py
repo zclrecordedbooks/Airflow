@@ -79,7 +79,7 @@ rendered in the UI's Task Instance Details page.
 dag.doc_md = __doc__
 
 t2 = BashOperator(
-    task_id='sleep',
+    task_id='sleep_____sleep',
     depends_on_past=False,
     bash_command='sleep 5',
     dag=dag,
